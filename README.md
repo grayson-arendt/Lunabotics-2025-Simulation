@@ -37,7 +37,7 @@ This will permanently append these two lines to your .bashrc file, so there is n
 ```bash
 mkdir -p ~/lunabot_ws/src
 cd ~/lunabot_ws/src
-git clone https://github.com/grayson-arendt/Lunabotics-2025.git
+git clone https://github.com/grayson-arendt/Lunabotics-2025-Simulation.git
 ```
 
 #### 3. Install dependencies
@@ -45,7 +45,7 @@ git clone https://github.com/grayson-arendt/Lunabotics-2025.git
 Run the installation script to install the required dependencies. `chmod +x` gives permission for the script to be executable. In any step that `chmod +x` is used, it will only need to be ran once.
 
 ```bash
-cd ~/lunabot_ws/src/Lunabotics-2025/scripts
+cd ~/lunabot_ws/src/Lunabotics-2025-Simulation/scripts
 chmod +x install_dependencies.sh
 sudo ./install_dependencies.sh
 ```
