@@ -14,7 +14,6 @@ This repository contains the simulationsoftware developed by the College of DuPa
 - imu_complementary_filter
 - ros2_control
 - ros2_controllers
-- gazebo_ros2_control
 - xacro
 
 ## Installation
