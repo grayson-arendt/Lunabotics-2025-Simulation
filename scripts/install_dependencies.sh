@@ -20,7 +20,6 @@ install_ros_packages() {
     apt install -y "${ros_packages[@]}"
 }
 
-
 # Main script
 main() {
     install_ros_packages
